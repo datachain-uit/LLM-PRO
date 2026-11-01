@@ -15,7 +15,6 @@ The experiments ask whether pedagogical profiles improve cold-start recommendati
 | `src/eval/` | Evaluation utilities, cold-item checks, and supplementary analyses |
 | `scores/` | Per-user NDCG@20 arrays used for the published statistical comparisons |
 | `results/` | Statistical tables, verdicts, supplementary outputs, reproduction runs, and archived latency evidence |
-| `archive/` | Few-shot-user data and exploratory notebooks not used in the paper |
 
 All notebooks locate the repository root automatically. When running code from another working directory, set `DATA_DIR` to the repository root:
 
